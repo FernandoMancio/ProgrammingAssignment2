@@ -26,13 +26,13 @@ makeCacheMatrix <- function(x = matrix()) {
 
 # SOLUTION
 
- M <- matrix(c(1,2,3,4),2,2)
+ M <- matrix(c(1,2,3,4),2,2) #To solve M first
 > M1 <- makeCacheMatrix(M)
-> cacheSolve(M1)
+> cacheSolve(M1) #To return inverse after the computation
      [,1] [,2]
 [1,]   -2  1.5
 [2,]    1 -0.5
-> cacheSolve(M1)
+> cacheSolve(M1) #return from the cache
 getting cached data
      [,1] [,2]
 [1,]   -2  1.5
